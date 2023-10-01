@@ -11,9 +11,12 @@
 6. Display the employee table
 
 ### Program:
-## Create table:
+#### Create table:
+```sql
 create table employee_1(empid number,empname varchar(10),dept varchar(10),salary number);
-## Create procedure:
+```
+#### Create procedure:
+```sql
 create or replace procedure insert_employee_data as
 begin
 insert into employee_1(empid,empname,dept,salary)
@@ -25,13 +28,18 @@ values(3,'Joe','IT',60000);
 commit;
 end;
 /
-## Procedure call:
+```
+#### Procedure call:
+```sql
 begin
 insert_employee_data;
 end;
 /
-## Display table:
+```
+#### Display table:
+```sql
 select * from employee_1;
+```
 
 ### Output:
 ![image](https://github.com/dineshgl/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/121243595/1835b096-6049-4c21-8696-b7fc933d9dde)
