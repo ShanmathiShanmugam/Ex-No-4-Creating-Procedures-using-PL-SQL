@@ -46,6 +46,8 @@ select * from employee_1;
 ### Output:
 ![image](https://github.com/dineshgl/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/121243595/1835b096-6049-4c21-8696-b7fc933d9dde)
 ![image](https://github.com/dineshgl/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/121243595/f19bb7c1-bbd3-4ca7-95e1-b797a45eccae)
+
+
 ![image](https://github.com/dineshgl/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/121243595/11f30d7e-d002-4663-9c8f-f520eeb199a9)
 
 ### Result:
